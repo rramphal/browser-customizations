@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Don't Make Me Watch
-// @namespace    https://github.com/NavinF/
+// @namespace    https://github.com/NavinF/dont
 // @version      1
 // @description  Keeps pages from detecting when the user has switched tabs/windows.
 // @author       Navin Francis
