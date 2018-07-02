@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LinkedIn Remove Modal
 // @version      1.0
-// @description  Remove login-in wall for LinkedIn
+// @description  Remove login modal for LinkedIn.
 // @author       Ravi S. Rāmphal
 // @match        https://www.linkedin.com/*
 // @grant        none

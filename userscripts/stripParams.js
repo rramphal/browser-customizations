@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Strip Params
 // @version      1.0
-// @description  Strips a predefined set of params from a page's location and all of its links
+// @description  Strips a predefined set of params from a page's location and all of its links.
 // @author       Ravi S. Rāmphal
 // @match        http*://*/*
 // @grant        none

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Wikipedia ISBN Links to Amazon
 // @version      1.0
-// @description  Replace all ISBN links in Wikipedia pages to links to Amazon
+// @description  Replace all ISBN links in Wikipedia pages to links to Amazon.
 // @author       Ravi S. Rāmphal
 // @match        http*://en.wikipedia.org/wiki/*
 // @grant        none

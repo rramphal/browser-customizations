@@ -1,7 +1,7 @@
 /*
     Primarily to help with classname interpolation
-    where the variable interpolated is undefined
-    (as with React.js). Using
+    where the variable being interpolated is
+    undefined (as with React.js). Using
     https://github.com/JedWatson/classnames
     can help.
 */
