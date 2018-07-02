@@ -1,0 +1,25 @@
+/*
+    Primarily to help with classname interpolation
+    where the variable interpolated is undefined
+    (as with React.js). Using
+    https://github.com/JedWatson/classnames
+    can help.
+*/
+
+.undefined {
+    color: black;
+    background-color: red;
+    padding: 5px;
+    border: 2px dashed black;
+    animation: undefined-blink 0.75s linear infinite;
+}
+
+.undefined:before {
+    content: 'UNDEFINED: ';
+}
+
+@keyframes undefined-blink {
+    50% {
+        opacity: 0;
+    }
+}
