@@ -1,0 +1,5 @@
+@-moz-document domain("facebook.com") {
+    #pagelet_ego_pane {
+        display: none !important;
+    }
+}

@@ -1,0 +1,9 @@
+@-moz-document url-prefix("https://www.bodybuilding.com/exercises/") {
+    .ExResult-cell--imgs {
+        width: 320px !important;
+    }
+
+    .Wr__content__content img {
+        width: 150px !important;
+    }
+}
