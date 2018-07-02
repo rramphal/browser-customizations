@@ -1,7 +1,8 @@
 javascript:(
     function () {
-        Array.from(document.links).forEach(function (link) {
-            console.log(link.href);
-        });
+        const links = Array.from(document.links).map(function (link) {
+            return link.href;
+        }).join('\n');
+        console.log(links);
     }
 )();
