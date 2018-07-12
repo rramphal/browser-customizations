@@ -11,15 +11,15 @@
     background-color: red;
     padding: 5px;
     border: 2px dashed black;
-    animation: undefined-blink 0.75s linear infinite;
+    animation: undefined-pulse 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
 }
 
 .undefined:before {
     content: 'UNDEFINED: ';
 }
 
-@keyframes undefined-blink {
+@keyframes undefined-pulse {
     50% {
-        opacity: 0;
+        opacity: 0.5;
     }
 }
