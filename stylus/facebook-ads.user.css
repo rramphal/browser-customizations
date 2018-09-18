@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           Facebook Ads
-@homepageURL    https://github.com/rramphal/browser-customizations/stylus
-@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/facebook-ads.user.css
-@version        1.0.0
 @description    Hides Facebook ads
+@version        1.0.0
 @author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations/stylus
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/stylus/facebook-ads.user.css
 ==/UserStyle== */
 
 @-moz-document domain("facebook.com") {

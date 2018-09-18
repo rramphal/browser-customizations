@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           Google Search Ads
-@homepageURL    https://github.com/rramphal/browser-customizations/stylus
-@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/google-search-ads.user.css
-@version        1.0.0
 @description    Hides Google Search ads
+@version        1.0.0
 @author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations/stylus
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/stylus/google-search-ads.user.css
 ==/UserStyle== */
 
 @-moz-document domain("google.com") {
