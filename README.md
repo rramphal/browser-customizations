@@ -22,15 +22,15 @@ Name | Description
 
 For use with [Stylus](https://add0n.com/stylus.html).
 
-Use `Mozilla Format > Import`.
+Use `Write new style [x] as Usercss`.
 
 Name | Description
 --- | ---
-`bodybuilding-exercises.css` | Make exercise thumbnails larger.
-`facebook-ads.css` | Hide some(?) Facebook ads.
-`google-search-ads.css` | Hides sponsored results at the top of Google search results.
-`reddit-background-images.css` | Removes background images from all Reddit pages.
-`undefined-blink.css` | Primarily to help with classname interpolation where the variable being interpolated is `undefined` (as with React.js). Using https://github.com/JedWatson/classnames can help.
+`bodybuilding-exercises.user.css` | Make exercise thumbnails larger.
+`facebook-ads.user.css` | Hide some(?) Facebook ads.
+`google-search-ads.user.css` | Hides sponsored results at the top of Google search results.
+`reddit-background-images.user.css` | Removes background images from all Reddit pages.
+`undefined-blink.user.css` | Primarily to help with classname interpolation where the variable being interpolated is `undefined` (as with React.js). Using https://github.com/JedWatson/classnames can help.
 
 ## Userscripts
 
