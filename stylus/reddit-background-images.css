@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Reddit Background Images
+@homepageURL    https://github.com/rramphal/browser-customizations/stylus
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/reddit-background-images.user.css
+@version        1.0.0
+@description    Hides background images on Reddit
+@author         Ravi S. Rāmphal
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+    body {
+        background-image: none;
+    }
+}

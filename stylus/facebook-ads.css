@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Facebook Ads
+@homepageURL    https://github.com/rramphal/browser-customizations/stylus
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/facebook-ads.user.css
+@version        1.0.0
+@description    Hides Facebook ads
+@author         Ravi S. Rāmphal
+==/UserStyle== */
+
+@-moz-document domain("facebook.com") {
+    #pagelet_ego_pane {
+        display: none !important;
+    }
+}
