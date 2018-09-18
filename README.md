@@ -18,7 +18,7 @@ Name | Description
 `trackClick.js` | Tracks elements being clicked on in the console. Toggles on and off.
 `trackFocus.js` | Tracks which element currently has active focus in the console. Toggles on and off.
 
-## Stylus
+## Userstyles
 
 For use with [Stylus](https://add0n.com/stylus.html).
 
