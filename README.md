@@ -31,6 +31,7 @@ Name | Description
 `google-search-ads.user.css` | Hides sponsored results at the top of Google search results.
 `reddit-background-images.user.css` | Removes background images from all Reddit pages.
 `undefined-blink.user.css` | Primarily to help with classname interpolation where the variable being interpolated is `undefined` (as with React.js). Using https://github.com/JedWatson/classnames can help.
+`youtube-sales-ads.user.css` | Hides some YouTube sales ads.
 
 ## Userscripts
 
