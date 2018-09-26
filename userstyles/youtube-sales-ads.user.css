@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           YouTube Sales Ads
+@description    Hides YouTube Sales Ads
+@version        1.0.0
+@author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/userstyles/youtube-sales-ads.user.css
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+  #ticket-shelf,
+  #merch-shelf {
+    display: none !important;
+  }
+}
