@@ -40,6 +40,7 @@ Primarily for use with [Tampermonkey](https://tampermonkey.net/).
 Name | Description
 --- | ---
 `dontMakeMeWatch.js` | Keeps pages from detecting when the user has switched tabs/windows. Taken from https://github.com/NavinF/dont.
+`globalUtils.js` | Global functions injected as utilities (to download text, etc.).
 `linkedInRemoveModal.js` | Removes login modal on LinkedIn pages.
 `orangeAnus.js` | Replace all Donald Trump references with Orange Anus. Inspired by http://donaldjdrumpf.com/.
 `stripParams.js` | Strips a predefined set of params from a page's location and all of its links.
