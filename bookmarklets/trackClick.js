@@ -1,4 +1,6 @@
 javascript:(function () { /* jshint ignore:line */
+    /* Tracks elements being clicked on in the console. Toggles on and off. */
+
     /* logs whenever a click event is fired on a page */
 
     'use strict';

@@ -1,5 +1,10 @@
 javascript:(function () {
 
+    /*
+       Adds a box where pinyin with numbers is converted to pinyin with
+       tone marks (on top of any page).
+    */
+
     /* ======= GLOBALS ======= */
 
     var originalFocusedElement;

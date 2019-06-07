@@ -1,6 +1,6 @@
 javascript:(function () { /* jshint ignore:line */
     /*
-        Allows the user to get a computed property for a given element.
+        Allows the user to get a computed property for a given element in the console.
 
         Usage: getElementAndStyle([SELECTOR], [CSS PROPERTY]).
 

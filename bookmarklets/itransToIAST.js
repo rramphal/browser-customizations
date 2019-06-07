@@ -1,5 +1,7 @@
 javascript:(
     function(){
+        /* Converts selected text from ITRANS to IAST (Sanskrit transliteration). */
+
         /**
          * Sanscript
          *

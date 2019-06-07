@@ -1,4 +1,9 @@
 javascript:(function () { /* jshint ignore:line */
+    /*
+       Tracks which element currently has active focus in the console.
+       Toggles on and off.
+    */
+
     /* logs whenever focus changes (whenever a focus event is fired) on a page */
 
     'use strict';

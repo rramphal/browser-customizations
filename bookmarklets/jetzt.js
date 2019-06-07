@@ -1,4 +1,10 @@
 javascript:(function () {
+    /*
+       Displays selected text for speed reading
+       (open-source implementation of [Spritz](http://spritzinc.com/).
+       Taken from https://ds300.github.io/jetzt/).
+    */
+
     /* https://ds300.github.io/jetzt/#install */
 
     var addStyle = function (url) {
