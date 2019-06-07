@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Adventure in Prolog
+@description    Make reading "Adventure in Prolog" more comfortable
+@version        1.0.0
+@author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/userstyles/adventure-in-prolog.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("http://www.amzi2.com/AdventureInProlog") {
+    body {
+        zoom: 1.75;
+    }
+}
