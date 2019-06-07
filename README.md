@@ -16,6 +16,8 @@ See individual scripts for documentation.
 
 For use with [Stylus](https://add0n.com/stylus.html).
 
-Use `Write new style [x] as Usercss`.
+Use `Write new style [x] as Usercss` when creating new styles.
+Even better is to push to GitHub and open the raw file.
+Stylus will auto-detect the style and offer to load it.
 
 See individual styles for documentation.
