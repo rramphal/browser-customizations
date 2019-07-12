@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Epic! Modal Styling
+@description    Makes Epic! modals more usable
+@namespace      Browser Customizations
+@version        1.0.0
+@author         Ravi S. Rāmphal
+@homepageURL    https://github.com/rramphal/browser-customizations
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/userstyles/epic-modal.user.css
+==/UserStyle== */
+
+@-moz-document domain("getepic.com") {
+    epic-modal .epic-modal-container {
+        width: 80vw !important;
+    }
+
+    epic-modal .save-content-container {
+        width: 70vw !important;
+        max-width: none !important;
+    }
+
+    epic-modal .save-content-container .body-container {
+        max-width: none !important;
+    }
+
+    epic-modal .collections-list {
+        max-height: 70vh !important;
+    }
+}
