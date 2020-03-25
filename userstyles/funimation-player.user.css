@@ -13,7 +13,7 @@
     display: none;
   }
 
-  #funimation-player .vjs-poster {
+  #funimation-player #brightcove-player {
     background-color: black;
   }
 }
