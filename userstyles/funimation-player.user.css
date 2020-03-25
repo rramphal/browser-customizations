@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Funimation Player
+@description    Improves aesthetic of Funimation video player
+@version        1.0.0
+@author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/userstyles/funimation-player.user.css
+==/UserStyle== */
+
+@-moz-document domain("funimation.com") {
+  #funimation-logo {
+    display: none;
+  }
+
+  #funimation-player .vjs-poster {
+    background-color: black;
+  }
+}
