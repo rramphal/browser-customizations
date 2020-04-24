@@ -1,4 +1,4 @@
-(function () {
+javascript:(function () {
 	const output = [];
 
 	const courseName = document.title.replace(' | Udemy', '');
