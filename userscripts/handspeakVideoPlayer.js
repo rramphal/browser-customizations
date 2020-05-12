@@ -3,7 +3,7 @@
 // @version      1.0
 // @description  Loosen up the video player on Handspeak.
 // @author       Ravi S. Rāmphal
-// @match        http*://*.handspeak.com/
+// @match        https://www.handspeak.com/*
 // @grant        none
 // ==/UserScript==
 
