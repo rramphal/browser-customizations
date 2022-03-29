@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           Cleanup Quizlet Display for Print / PDF
+@description    Formats Quizlet pages for printing / PDFs
+@version        1.0.0
+@author         Ravi S. Rāmphal
+@namespace      Browser Customizations
+@homepageURL    https://github.com/rramphal/browser-customizations
+@updateURL      https://raw.githubusercontent.com/rramphal/browser-customizations/master/userstyles/quizlet-print-cleanup.user.css
+==/UserStyle== */
+
+@-moz-document domain("quizlet.com") {
+    @media print {
+        * {
+            font-size: 14px;
+            background-color: white !important;
+            color: black !important;
+        }
+
+        .TopNavigationWrapper,
+        .ExplanationSolutionsContainer ~ div,
+        [aria-label="more"],
+        [aria-label="Table of contents"],
+        [data-testid="premiumBrandingBadge-plus"],
+        footer {
+            display: none !important;
+        }
+
+        h4 + div > div {
+            font-size: 20px !important;
+            font-weight: bold !important;
+        }
+    }
+}
