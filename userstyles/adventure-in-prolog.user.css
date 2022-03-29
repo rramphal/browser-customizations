@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("http://www.amzi2.com/AdventureInProlog") {
-  body {
-    zoom: 1.75;
-  }
+    body {
+        zoom: 1.75;
+    }
 }

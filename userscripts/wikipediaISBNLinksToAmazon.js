@@ -8,9 +8,9 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  'use strict';
 
-    document.querySelectorAll('a[href*="Special:BookSources"]').forEach(function (link) {
-        link.setAttribute('href', 'https://amzn.com/' + link.href.substr(link.href.lastIndexOf('/') + 1).replace(/[ -]/g, ''));
-    });
+  document.querySelectorAll('a[href*="Special:BookSources"]').forEach(function (link) {
+    link.setAttribute('href', 'https://amzn.com/' + link.href.substr(link.href.lastIndexOf('/') + 1).replace(/[ -]/g, ''));
+  });
 })();

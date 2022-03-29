@@ -9,11 +9,11 @@
 ==/UserStyle== */
 
 @-moz-document domain("funimation.com") {
-  #funimation-logo {
-    display: none;
-  }
+    #funimation-logo {
+        display: none;
+    }
 
-  #funimation-player #brightcove-player {
-    background-color: black;
-  }
+    #funimation-player #brightcove-player {
+        background-color: black;
+    }
 }

@@ -9,8 +9,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
-  #ticket-shelf,
-  #merch-shelf {
-    display: none !important;
-  }
+    #ticket-shelf,
+    #merch-shelf {
+        display: none !important;
+    }
 }

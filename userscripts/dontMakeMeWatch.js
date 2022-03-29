@@ -9,12 +9,12 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  'use strict';
 
-    for (var event_name of ['visibilitychange', 'webkitvisibilitychange', 'blur']) {
-        window.addEventListener(event_name, function (event) {
-            event.stopImmediatePropagation();
-            console.log('Blocked ' + event_name + ' event');
-        }, true);
-    }
+  for (var event_name of ['visibilitychange', 'webkitvisibilitychange', 'blur']) {
+    window.addEventListener(event_name, function (event) {
+      event.stopImmediatePropagation();
+      console.log('Blocked ' + event_name + ' event');
+    }, true);
+  }
 })();
